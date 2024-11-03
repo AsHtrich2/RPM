@@ -1,17 +1,47 @@
+# version: 0.2
+
+# phases:
+#   install:
+#     commands:
+#       - echo Installing dependencies
+#       - npm install
+#   build:
+#     commands:
+#       - echo Building the React app
+#       - npm run build
+
+# artifacts:
+#   files:
+#     - '**/*'
+#     - appspec.yml
+#   base-directory: "./"
 version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 18
+   
     commands:
-      - echo Installing dependencies
-      - npm install
+        # install npm
+        - npm install
+       
   build:
     commands:
-      - echo Building the React app
-      - npm run build
-
+        # run build script
+        - npm run build
+     
 artifacts:
+  # include all files required to run the application
   files:
-    - '**/*'
+    - public/**/*
+    - src/**/*
+    - package.json
     - appspec.yml
+    - scripts/**/*
+    - tailwind.config.js
   base-directory: "./"
+
+cache:
+  paths:
+    - "node_modules/**/*"
