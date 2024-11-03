@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /app
+cd /react-app
 npm install -g serve   
 serve -s build -l 3000 

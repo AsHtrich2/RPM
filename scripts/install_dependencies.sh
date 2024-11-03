@@ -1,6 +1,7 @@
 #!/bin/bash
-cd /app
+cd /react-app
+rm -rf node_modules
+rm -rf build
+
 npm install
 npm run build
-cp -r build/* /var/www/html
-npm install pm2 -g

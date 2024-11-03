@@ -1,13 +1,8 @@
 #!/bin/bash
-
-# navigate to app folder
-cd /app
-
-# install node and npm
-apt-get install curl
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-apt-get install nodejs -y
-apt-get install npm -y
-apt install nginx -y
-ufw allow 'Nginx HTTP'
+cd ~
+curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt update
+sudo apt install -y nodejs
+sudo apt install -y npm
 
