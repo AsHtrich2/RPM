@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /var/www/react-app
-pm2 delete all
-pm2 start "npm start"
+npm install -g serve   
+serve -s build -l 3000 
