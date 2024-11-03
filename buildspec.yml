@@ -40,7 +40,7 @@ artifacts:
     - appspec.yml
     - scripts/**/*
     - tailwind.config.js
-  base-directory: "./"
+ 
 
 cache:
   paths:
