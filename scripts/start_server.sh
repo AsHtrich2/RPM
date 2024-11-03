@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /var/www/react-app
+cd /app
 npm install -g serve   
 serve -s build -l 3000 

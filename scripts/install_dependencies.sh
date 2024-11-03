@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /var/www/react-app
+cd /app
 rm -rf build
 
 npm install
