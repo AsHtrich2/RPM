@@ -6,4 +6,5 @@ sudo apt update
 sudo apt install -y nodejs
 sudo apt install -y npm
 npm i -g yarn   
+sudo npm install -g pm2
 
