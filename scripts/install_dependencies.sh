@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /react-app
+cd /rpm
 rm -rf node_modules
 rm -rf build
 
