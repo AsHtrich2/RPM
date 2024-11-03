@@ -1,1 +1,1 @@
-RPM by Ash
+RPM by ASH
