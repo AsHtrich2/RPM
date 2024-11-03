@@ -5,4 +5,4 @@ sudo bash nodesource_setup.sh
 sudo apt update
 sudo apt install -y nodejs
 sudo apt install -y npm
-sudo apt install -y pm2
+
