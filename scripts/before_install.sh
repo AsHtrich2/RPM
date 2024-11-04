@@ -6,5 +6,7 @@ sudo apt update
 sudo apt install -y nodejs
 sudo apt install -y npm
 npm i -g yarn   
-# sudo npm install -g pm2
+sudo rm -rf /usr/local/lib/node_modules/pm2
+sudo rm -rf /usr/local/lib/node_modules/.pm2-*
+sudo npm install -g pm2
 
