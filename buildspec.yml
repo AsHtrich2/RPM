@@ -14,10 +14,6 @@ artifacts:
   files:
     - '**/*'
     - appspec.yml
-    - scripts/before_install.sh
-    - scripts/install_dependencies.sh
-    - scripts/start_server.sh
-    - scripts/stop_server.sh
   base-directory: "./"
 
 cache:
