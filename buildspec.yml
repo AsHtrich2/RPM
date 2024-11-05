@@ -19,3 +19,28 @@ artifacts:
 cache:
   paths:
     - "node_modules/**/*"
+
+
+
+
+
+# version: 0.2
+
+# phases:
+#   install:
+#     commands:
+#       - echo Installing dependencies
+#       - npm ci
+#   build:
+#     commands:
+#       - echo Building the React app
+#       - npm run build
+
+# artifacts:
+#   files:
+#     - '**/*'
+#   base-directory: "build"
+
+# cache:
+#   paths:
+#     - "node_modules/**/*"
